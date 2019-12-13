@@ -12,10 +12,10 @@ from tweepy import OAuthHandler
 import tweepy
 import time
 timestr = time.strftime("%Y%m%d-%H%M%S")
-consumer_key = 'nwSwrRieacbulih58WC2vqO21'
-consumer_secret = 'IStJbH45VdBIQK8FzAXHyA2iZRWx1jW5KSil8BQ6kLoBS4gomZ'
-access_token = '3239874566-2y1xTQM5JAC93Y8cnoTg2mOvIURIxONtZlGj0Lp'
-access_secret = 'SglXmOxC5n4ehsPEMqYtxLmBKXueuZNsvUvd8AShuBKYT'
+consumer_key = 'consumer_key'
+consumer_secret = 'consumer_secret'
+access_token = 'access_token'
+access_secret = 'access_secret'
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
 api = tweepy.API(auth, wait_on_rate_limit=True,
